@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    font-family:sans-serif;
+}
+/* .menu-header{
+    display:flex;
+    justify-content: space-between;
+    margin:50px 40px;
+  
+    
+
+}
+.menu-header li {
+    list-style:none;
+}
+.menu-header li a{
+    text-decoration:none;
+}
+.menu-header .menu-item{
+border-radius: 5px red;
+background-color: #328a85;
+padding:20px;
+
+}
+.menu-header .menu-item li a{
+    color:black;
+    font-weight:700;
+    font-family:sans-serif;
+
+
+    
+}
+.item-detail{
+    display:flex;
+    justify-content:space-between;
+} */
+.menu-details{
+
+margin-top:0px;
+}
+.menu-heading {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-gap:30px;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.menu-heading img{
+    width:100%;
+   
+}
+.menu-img1 img{
+    position: relative;
+    left:135px; 
+    
+}
+.menu-img2 img{
+  position:relative;
+  right:135px;
+
+    
+    /* margin-right:100px; */
+    
+}
+
+.menu-heading h1{
+    text-align:center;
+    color:#328a85;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.menu-items{
+    display:inline-flex;
+   
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left:20px;
+ 
+    background-color: #328a85;
+    border-radius: 12px;
+    padding:10px;
+
+    height:170px;
+    width:45%;
+    position:relative;
+}
+.item-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+ 
+ 
+
+    }
+.menuname {
+     display:flex;
+     margin-left:40px;
+    justify-content: space-between; 
+    align-items: center;
+    padding:4px;
+    margin-left:20px;
+    
+
+}
+
+.menudetail p {
+    padding:6px;
+    font-family:sans-serif;
+    font-weight:500;
+    
+}
+.price{
+    color:#171616;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.menudescript p{
+    color:black;
+    /* margin:6px; */
+    font-weight:500;
+    position:relative;
+    left:22px;
+}
+
+.items-logo img{
+   
+height:150px;
+width:150px;
+border-radius: 7px;
+
+}
+
