@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="./images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5502/index.html#">home</a>
+        <a href="http://127.0.0.1:5502/about.html">about</a>
+        <a href="http://127.0.0.1:5502/menuitem.html#home">menu</a>
+      
+        <a href="http://127.0.0.1:5502/contact.html">contact</a>
+   
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+
+</header>
+
+<section>
+    <h1>
+        welcome to our restaurant
+    </h1>
+    <h1>
+        welcome to our restaurant
+    </h1>
+    <h1>
+        welcome to our restaurant
+    </h1>
+</section>
+
+<!-- 
+menu sec tion starts here -->
+<section class="products sections containers">
+    <div class="tab-btns">
+        <span class="tab-btns active-tab"data-target="#featured">Featured</span>
+        <span class="tab-btn"data-target="#Popular">popular </span>
+        <span class="tab-btn"data-target="#New Added">New Added</span>
+    </div>
+
+    <div class="tab-items">
+<div class="tab-item active-tab "content id="featured">
+
+    <div class="product-container grid">
+        <div class="product-item">
+<div class="product-banner">
+    <a href="details.html" class="product-images">
+        <img src="./images//freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai-removebg-preview-removebg-preview.png" alt="" srcset=""classs="product-img hover">
+        
+       
+    </a>
+    <div class="product-actions">
+        <a href="" class="action-btn"></a>
+    </div>
+</div>
+
+<div class="product-content">
+    <span class="product-category">Clothing</span>
+    <a href="details.html">
+        <h3 class="product-title">Colorful food</h3>
+    </a>
+    <div class="product-rating">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        
+    </div>
+    <div class="product-price flex" >
+        <span class="new-price">$23</span>
+    </div>
+    <a href="" class="action-btn cart-btn" aria-label="Add to Cart">
+        <i class='bx bx-cart'></i>
+
+    </a>
+</div>
+        </div>
+
+
+        <div class="product-item">
+            <div class="product-banner">
+                <a href="details.html" class="product-images">
+                    <img src="./images//freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai-removebg-preview-removebg-preview.png" alt="" srcset=""classs="product-img hover">
+                    
+                   
+                </a>
+                <div class="product-actions">
+                    <a href="" class="action-btn"></a>
+                </div>
+            </div>
+            
+            <div class="product-content">
+                <span class="product-category">Clothing</span>
+                <a href="details.html">
+                    <h3 class="product-title">Colorful food</h3>
+                </a>
+                <div class="product-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    
+                </div>
+                <div class="product-price flex" >
+                    <span class="new-price">$23</span>
+                </div>
+                <a href="" class="action-btn cart-btn" aria-label="Add to Cart">
+                    <i class='bx bx-cart'></i>
+            
+                </a>
+            </div>
+                    </div>
+
+
+                    <div class="product-item">
+                        <div class="product-banner">
+                            <a href="details.html" class="product-images">
+                                <img src="./images//freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai-removebg-preview-removebg-preview.png" alt="" srcset=""classs="product-img hover">
+                                
+                               
+                            </a>
+                            <div class="product-actions">
+                                <a href="" class="action-btn"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="product-content">
+                            <span class="product-category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product-title">Colorful food</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                
+                            </div>
+                            <div class="product-price flex" >
+                                <span class="new-price">$23</span>
+                            </div>
+                            <a href="" class="action-btn cart-btn" aria-label="Add to Cart">
+                                <i class='bx bx-cart'></i>
+                        
+                            </a>
+                        </div>
+                                </div>
+    </div>
+    <!-- productcontainerd div end here -->
+
+
+    
+
+
+</div>
+<div class="tab-item active-tab "content id="popular">
+
+    <div class="product-container grid">
+        <div class="product-item">
+<div class="product-banner">
+    <a href="details.html" class="product-images">
+        <img src="./images//freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai-removebg-preview-removebg-preview.png" alt="" srcset=""classs="product-img hover">
+       
+       
+    </a>
+    <div class="product-actions">
+        <a href="" class="action-btn"></a>
+    </div>
+</div>
+
+<div class="product-content">
+    <span class="product-category">Clothing</span>
+    <a href="details.html">
+        <h3 class="product-title">Colorful food</h3>
+    </a>
+    <div class="product-rating">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        
+    </div>
+    <div class="product-price flex" >
+        <span class="new-price">$23</span>
+    </div>
+    <a href="" class="action-btn cart-btn" aria-label="Add to Cart">
+        <i class='bx bx-cart'></i>
+
+    </a>
+</div>
+        </div>
+    </div>
+    <!-- productcontainerd div end here -->
+
+
+    
+
+
+</div>
+
+
+
+
+</div>
+
+</section>
+
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<!-- <section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="table">
+    <h5 class="text-uppercase mb-4">Opening hours</h5>
+        <table class="table text-center text-white">
+          <tbody class="font-weight-normal">
+            <tr>
+              <td>Mon - Thu:</td>
+              <td>8am - 9pm</td>
+            </tr>
+            <tr>
+              <td>Fri - Sat:</td>
+              <td>8am - 1am</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>9am - 10pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+         
+</section> -->
+
+<!-- footer section ends -->
+<header>
+    <!-- Content -->
+  </header>
+  
+  <main>
+    <!-- Content -->
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Biryani</h1>
+          
+      <h2>Contact</h2>
+      
+      <address>
+        5534 Somewhere In. The World 22193-10212<br>
+            
+        <a class="footer__btn" href="example@gmail.com">Email Us</a>
+      </address>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Speciality</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Burgers</a>
+          </li>
+  
+          <li>
+            <a href="#">Pizza</a>
+          </li>
+              
+          <li>
+            <a href="#"> Pasta</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">My Acoounts</h2>
+        
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">My Account</a>
+          </li>
+          
+          <li>
+            <a href="#">Brand</a>
+          </li>
+          
+          <li>
+            <a href="#">Gift Certificate</a>
+          </li>
+          
+          <li>
+            <a href="#">Affiliate</a>
+          </li>
+          
+          <li>
+            <a href="#">Wishlist</a>
+          </li>
+          
+          
+        </ul>
+      </li>
+      
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    <div class="legal">
+      <p>&copy; 2019 Something. All rights reserved.</p>
+      
+      <div class="legal__links">
+        <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js">
+    const tabs=document.querySelectorAll('[data-target]'),
+    tabContent=document.querySelectorAll('[contgent]');
+    tabs.forEach((tab)=>{
+        tab.addEventListener('click',()=>{
+            const target=document.querySelector(tab.dataset.target);
+            tabContent.classList.remove('active-tab');
+        });
+        target.classList.add('active-tab');
+        tabs.forEach((tab)=>{
+            tab.classList.remove('active-tab');
+        });
+        tab.classList.add('active-tab');
+    })
+</script>
+
+</body>
+</html>
